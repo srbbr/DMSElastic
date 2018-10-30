@@ -6,9 +6,9 @@
   },
   "dependencies": {
     "elasticio-node": "0.0.8",
-    "elasticio-sailor-nodejs": "^2.2.1",
-    "mime-types": "^2.1.18",
-    "request": "^2.83.0",
+    "elasticio-sailor-nodejs": "^2.3.0",
+    "mime-types": "^2.1.21",
+    "request": "^2.88.0",
     "request-promise-native": "^1.0.5"
   },
   "engines": {
