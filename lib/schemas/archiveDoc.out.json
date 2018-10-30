@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "result":{
+            "type": "boolean",
+            "required": true,
+            "title": "result"
+        },
+        "message":{
+            "type": "string",
+            "required": false,
+            "title": "message"
+        },
+        "docID":{
+            "type": "integer",
+            "required": false,
+            "title": "docID"                        
+        }
+    }
+}

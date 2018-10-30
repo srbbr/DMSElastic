@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "docID": {
+        "type": "integer",
+        "required": true,
+        "title": "Doc-ID"
+    }
+  }
+}

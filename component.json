@@ -1,0 +1,55 @@
+{
+  "title": "Starke-DMS\u00AE",
+  "description": "Starke-DMS\u00AE",
+  "actions": {
+    "archiveDoc": {
+      "main": "./lib/actions/archiveDoc.js",
+      "title": "Archivierung",
+      "fields": {},
+      "metadata": {
+        "in": "./lib/schemas/archiveDoc.in.json",
+        "out": "./lib/schemas/archiveDoc.out.json"
+      }
+    },
+    "getIndexes": {
+      "main": "./lib/actions/getIndexes.js",
+      "title": "Metadaten-Abruf",
+      "fields": {},
+      "metadata": {
+        "in": "./lib/schemas/getIndexes.in.json",
+        "out": "./lib/schemas/getIndexes.out.json"
+      }
+    },
+    "getDocFile": {
+      "main": "./lib/actions/getDocFile.js",
+      "title": "Dokumenten-Abruf",
+      "fields": {},
+      "metadata": {
+        "in": "./lib/schemas/getDocFile.in.json",
+        "out": "./lib/schemas/getDocFile.out.json"
+      }
+    }
+  },
+  "credentials": {
+    "fields": {
+      "dms_url": {
+        "viewClass": "TextFieldView",
+        "label": "Starke-DMS\u00AE WebServer-URL",
+        "required": true,
+        "placeholder": "https://dms.mydomain.de:8888"
+      },
+      "dms_user": {
+        "viewClass": "TextFieldView",
+        "label": "Starke-DMS\u00AE Username",
+        "required": true,
+        "placeholder": ""
+      },
+      "dms_pass": {
+        "viewClass": "TextFieldView",
+        "label": "Starke-DMS\u00AE Password",
+        "required": true,
+        "placeholder": ""
+      }
+    }
+  }
+}

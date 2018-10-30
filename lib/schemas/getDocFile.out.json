@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "result": {
+            "type": "boolean",
+            "required": true,
+            "title": "result"
+        },
+        "message": {
+            "type": "string",
+            "required": false,
+            "title": "message"
+        },
+        "attachment": {
+            "name": {
+                "type": "string",
+                "required": false,
+                "title": "name"
+            },
+            "url": {
+                "type": "string",
+                "required": false,
+                "title": "url"
+            },
+            "size": {
+                "type": "Integer",
+                "required": false,
+                "title": "size"
+            },
+            "content-type": {
+                "type": "string",
+                "required": false,
+                "title": "content-type"
+            }
+        }
+    }
+}

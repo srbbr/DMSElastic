@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "result":{
+            "type": "boolean",
+            "required": true,
+            "title": "result"
+        },
+        "message":{
+            "type": "string",
+            "required": false,
+            "title": "message"
+        },
+        "indexes":{
+            "type": "array",
+            "required": false,
+            "title": "indexes"                        
+        }
+    }
+}

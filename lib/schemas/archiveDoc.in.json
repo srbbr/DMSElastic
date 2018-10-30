@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "url": {
+        "type": "string",
+        "required": false,
+        "title": "Doc-URL"
+    },
+    "indexes": {
+        "type": "array",
+        "required": true,
+        "title": "Indexes"
+    }
+  }
+}
